@@ -1,7 +1,7 @@
 import React from 'react';
 import * as sortingAlgorithms from '../SortingAlgorithms/sortingAlgorithms.js';
 import './Visualizer.css';
-//wtf
+
 const arraySize = 20;
 
 export default class Visualizer extends React.Component {
