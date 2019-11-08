@@ -27,7 +27,6 @@ export default class Visualizer extends React.Component {
 
     mergeSort() {
         const array = sortingAlgorithms.mergeSort(this.state.array);
-        array[1] = 0;
         this.setState({ array });
     }
 
@@ -36,8 +35,8 @@ export default class Visualizer extends React.Component {
     heapSort() { }
 
     bubbleSort() {
-        const sortedArray = sortingAlgorithms.bubbleSort(this.state.array);
-        console.log(sortedArray);
+        const array = sortingAlgorithms.bubbleSort(this.state.array);
+        this.setState({ array });
     }
 
     render() {
