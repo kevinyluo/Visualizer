@@ -2,7 +2,7 @@ import React from 'react';
 import * as sortingAlgorithms from '../SortingAlgorithms/sortingAlgorithms.js';
 import './Visualizer.css';
 
-const arraySize = 20;
+const arraySize = 40;
 
 export default class Visualizer extends React.Component {
     constructor(props) {
@@ -26,13 +26,19 @@ export default class Visualizer extends React.Component {
     }
 
     mergeSort() {
-        const sortedArray = sortingAlgorithms.mergeSort(this.state.array);
-        console.log(sortedArray);
+        const array = sortingAlgorithms.mergeSort(this.state.array);
+        array[1] = 0;
+        this.setState({ array });
     }
 
     quickSort() { }
+
     heapSort() { }
-    bubbleSort() { }
+
+    bubbleSort() {
+        const sortedArray = sortingAlgorithms.bubbleSort(this.state.array);
+        console.log(sortedArray);
+    }
 
     render() {
         const { array } = this.state;   
