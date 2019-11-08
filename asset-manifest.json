@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Visualizer/static/css/main.3434e4a9.chunk.css",
+    "main.css": "/Visualizer/static/css/main.051daecd.chunk.css",
     "main.js": "/Visualizer/static/js/main.7f48311b.chunk.js",
     "main.js.map": "/Visualizer/static/js/main.7f48311b.chunk.js.map",
     "runtime-main.js": "/Visualizer/static/js/runtime-main.0057a4b0.js",
@@ -8,15 +8,15 @@
     "static/js/2.1fa7a027.chunk.js": "/Visualizer/static/js/2.1fa7a027.chunk.js",
     "static/js/2.1fa7a027.chunk.js.map": "/Visualizer/static/js/2.1fa7a027.chunk.js.map",
     "index.html": "/Visualizer/index.html",
-    "precache-manifest.c5a8f2a7c9a3df0c41ecd5371d10c09f.js": "/Visualizer/precache-manifest.c5a8f2a7c9a3df0c41ecd5371d10c09f.js",
+    "precache-manifest.7ddc0edeb8f7c11fcf648ec29f7fc6be.js": "/Visualizer/precache-manifest.7ddc0edeb8f7c11fcf648ec29f7fc6be.js",
     "service-worker.js": "/Visualizer/service-worker.js",
-    "static/css/main.3434e4a9.chunk.css.map": "/Visualizer/static/css/main.3434e4a9.chunk.css.map",
+    "static/css/main.051daecd.chunk.css.map": "/Visualizer/static/css/main.051daecd.chunk.css.map",
     "static/media/logo.svg": "/Visualizer/static/media/logo.25bf045c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.0057a4b0.js",
     "static/js/2.1fa7a027.chunk.js",
-    "static/css/main.3434e4a9.chunk.css",
+    "static/css/main.051daecd.chunk.css",
     "static/js/main.7f48311b.chunk.js"
   ]
 }
